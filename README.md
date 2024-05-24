@@ -60,10 +60,35 @@ Et créons un test.sh de fast-api comme ceci :
 
 ![2024-05-24 16_24_44-Paramètres](https://github.com/fnature78/eval_repo/assets/110181431/613a0453-0522-41c7-95e6-16aae1dcded6)
 
-Maintenant créons un dossier .gihub/workflow à la racine afin créer un workflow :
+Pour la prochaine étape, nous allons créer des secrets pour nos identifiants dockerhub : 
+
+Il suffit d'aller dans les settings de notre repo et ajouter des repositories secrets : 
 
 
+![2024-05-24 16_57_22-Actions secrets · fnature78_eval_repo et 5 pages de plus - Personnel – Microsoft](https://github.com/fnature78/eval_repo/assets/110181431/940c469d-dbbf-40ef-8632-699f07c8c793)
 
+
+Maintenant créons un dossier .github/workflow à la racine afin créer le work flow suivant : dockerdeploy.yml
+
+![2024-05-24 16_52_42-Alienware Command Center](https://github.com/fnature78/eval_repo/assets/110181431/f2cd50bc-db0e-4310-82bf-f77af6057188)
+
+Ajoutons le .github au repo github avec la commande git add .github
+
+Nous voyons qu'il est bien apparu
+
+![2024-05-24 16_53_47-fnature78_eval_repo_ Repo pour l'éval et 5 pages de plus - Personnel – Microsoft](https://github.com/fnature78/eval_repo/assets/110181431/fb6e58fa-e7e6-495f-8046-2b081fa0eee4)
+
+Regardons si notre workflow fonctionne dans l'onglet actions 
+
+![2024-05-24 16_54_39-docker-deploy yml · Workflow runs · fnature78_eval_repo et 5 pages de plus - Per](https://github.com/fnature78/eval_repo/assets/110181431/a114b1f9-8661-487f-ac71-11696a1e4653)
+
+Il s'est bien exécuté sans problèmes.
+
+Maintenant, allons voir s'il apparaît sur notre compte docker : 
+
+![image](https://github.com/fnature78/eval_repo/assets/110181431/522a1356-2f9e-4b55-92a3-051b3aa25c51)
+
+ça marche !
 
 
 
