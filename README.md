@@ -52,6 +52,19 @@ Nous pouvons aussi voir qu'elle est bien en fonctionnement :
 
 ![2024-05-24 16_13_23-root@fna-ubu_ _home_fna_eval_repo](https://github.com/fnature78/eval_repo/assets/110181431/87d50d28-c8bf-4750-b77b-b4b1da591ef6)
 
+Basculons maintenant vers la branche dev :
+
+![2024-05-24 16_23_33-root@fna-ubu_ _home_fna_eval_repo](https://github.com/fnature78/eval_repo/assets/110181431/51562689-b9c1-47c0-ba13-a60f2d6f9b35)
+
+Et créons un test.sh de fast-api comme ceci : 
+
+![2024-05-24 16_24_44-Paramètres](https://github.com/fnature78/eval_repo/assets/110181431/613a0453-0522-41c7-95e6-16aae1dcded6)
+
+Maintenant créons un dossier .gihub/workflow à la racine afin créer un workflow :
+
+
+
+
 
 
 
