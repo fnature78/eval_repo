@@ -2,13 +2,13 @@ import groq
 from groq import Groq
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-import os
+import os 
 
 app = FastAPI()
 
 # Configure the default for all requests:
 client = Groq(
-    api_key=os.environ.get("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"),
+    api_key=os.environ.get("GROQ_API_KEY"),
     # 20 seconds (default is 1 minute)
     timeout=20.0,
     max_retries=1,
