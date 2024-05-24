@@ -30,5 +30,30 @@ Nous pouvons voir que l'application s'est bien lancée sans erreurs :
 
 ![image](https://github.com/fnature78/eval_repo/assets/110181431/4873d403-ca84-4558-86f2-4cce3cbe473a)
 
+Créons maintenant notre dockerfile à la racine, voici son contenu : 
+
+![2024-05-24 16_03_16-root@fna-ubu_ _home_fna_eval_repo](https://github.com/fnature78/eval_repo/assets/110181431/421c7ce0-22f5-4346-a841-0bf82fc845f6)
+
+(à noter qu'il ne faut jamais mettre la clé API en clair, nous le faisais ici à des fins de test)
+
+Buildons maintenant notre image avec la commande suivante : 
+
+![2024-05-24 16_07_18-root@fna-ubu_ _home_fna_eval_repo](https://github.com/fnature78/eval_repo/assets/110181431/e1a5c6b5-e6a3-4e59-ae16-1aa4a85790ae)
+
+Puis démarrons le container avec cette commande : 
+
+![2024-05-24 16_09_38-root@fna-ubu_ _home_fna_eval_repo](https://github.com/fnature78/eval_repo/assets/110181431/dfcc9c12-bcee-4f22-bcf8-0b08d51c763e)
+
+Nous pouvons voir que cela a bien marché : 
+
+![2024-05-24 16_10_13-root@fna-ubu_ _home_fna_eval_repo](https://github.com/fnature78/eval_repo/assets/110181431/c91d9073-3dd4-4189-818d-a6bcd3df3177)
+
+Nous pouvons aussi voir qu'elle est bien en fonctionnement : 
+
+![2024-05-24 16_13_23-root@fna-ubu_ _home_fna_eval_repo](https://github.com/fnature78/eval_repo/assets/110181431/87d50d28-c8bf-4750-b77b-b4b1da591ef6)
+
+
+
+
 
 
